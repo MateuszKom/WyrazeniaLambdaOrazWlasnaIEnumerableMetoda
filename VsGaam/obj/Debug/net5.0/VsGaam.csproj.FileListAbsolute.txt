@@ -1,0 +1,16 @@
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.exe
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.deps.json
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.runtimeconfig.json
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.runtimeconfig.dev.json
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.dll
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\ref\VsGaam.dll
+C:\Users\Mateusz\source\repos\VsGaam\bin\Debug\net5.0\VsGaam.pdb
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.csproj.AssemblyReference.cache
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.AssemblyInfoInputs.cache
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.AssemblyInfo.cs
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.csproj.CoreCompileInputs.cache
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.dll
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\ref\VsGaam.dll
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.pdb
+C:\Users\Mateusz\source\repos\VsGaam\obj\Debug\net5.0\VsGaam.genruntimeconfig.cache
