@@ -8,13 +8,13 @@ namespace VsGaam
     {
         static void Main(string[] args)
         {
-            SearchEngine();
+            //SearchEngine();
             SuggestEngine();
         }
 
         static void SearchEngine()
         {
-            List<RolePlayingGames> rpggames = RolePlayingGamesList.LoadSampleData();
+            var rpggames = RolePlayingGamesList.LoadSampleData();
 
             rpggames = rpggames.OrderBy(n => n.Name).ToList();
             rpggames = rpggames.Where(n => n.Audio <= 8).ToList();
@@ -27,17 +27,27 @@ namespace VsGaam
         }
         static void SuggestEngine()
         {
-            List<RolePlayingGames> sugGames = RolePlayingGamesList.LoadSampleData();
+            var sugGames = RolePlayingGamesList.LoadSampleData();
 
             sugGames = sugGames
-                .Where(g => g.Audio >= 8 && g.Performance >= 8).ToList()
-                .OrderBy(g => g.Name).ToList()
-                .Take(2).ToList();
+                .NameByYear()
+                //.Where(Filter)
+                .ToList();
 
             foreach (var game in sugGames)
             {
                 Console.WriteLine($"{game.Name} - { game.Audio} - { game.Performance}");
             }
+        }
+
+        public static bool Filter(RolePlayingGame rpg) => rpg.Audio >= 8 && rpg.Performance >= 8;
+    }
+
+    public static class LinqExtensions
+    {
+        public static IOrderedEnumerable<T> NameByYear<T>(this IEnumerable<T> t) where T : RolePlayingGame
+        {
+            return t.OrderBy(a => a.Name);
         }
     }
 }
