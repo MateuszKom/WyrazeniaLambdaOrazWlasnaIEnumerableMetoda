@@ -8,7 +8,7 @@ namespace VsGaam
 {
     class RolePlayingGamesList
     {
-        public static List<RolePlayingGames> LoadSampleData()
+        public static IEnumerable<RolePlayingGames> LoadSampleData()
         {
             List <RolePlayingGames> output = new List<RolePlayingGames>();
 
